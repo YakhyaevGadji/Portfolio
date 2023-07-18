@@ -11,6 +11,10 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
 
 
 
@@ -62,10 +66,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90vh;
+    margin-top: 70px;
 }
 .intro__info {
     max-width: 500px;
+    margin-bottom: 160px;
 }
 .intro__title {
     font-size: 44px;
@@ -76,9 +81,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 200%;
-}
-.intro__image {
-    
 }
 
 
@@ -91,7 +93,8 @@ body {
 }
 .services__list {
     display: flex;
-    justify-content: space-between;
+    
+    column-gap: 30px;
 }
 .services__list-item {
     max-width: 370px;
