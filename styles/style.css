@@ -6,13 +6,10 @@ body {
     background-color: #F1F1F1;
     font-weight: 400;
 }
-.wrapper {
+
+.container {
     max-width: 1185px;
     padding: 0 15px;
-    margin: 0 auto;
-}
-.container {
-    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -96,9 +93,6 @@ body {
     
     column-gap: 30px;
 }
-.services__list-item {
-    max-width: 370px;
-}
 .services__icon {
     margin-bottom: 30px;
 }
@@ -110,4 +104,29 @@ body {
 }
 .services__subtitle {
     font-weight: 400;
+    line-height: 27px
+}
+
+
+/* Projects */
+
+
+.projects__title {
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    margin: 90px 0 70px 0;
+}
+.projects__list-item {
+    margin-bottom: 90px;
+}
+.projects__image {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.projects__link {
+    text-align: center;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
 }
