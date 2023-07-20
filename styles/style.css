@@ -130,3 +130,77 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
+
+
+/* Footer */
+
+
+.footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 90px 0;
+}
+.footer__info {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.footer__title {
+    margin-bottom: 40px;
+    font-size: 34px;
+    font-weight: 600;
+}
+.footer__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.footer__button {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 7px 22px;
+    color: #fff;
+    background-color: black;
+    border-radius: 50px;
+    margin-bottom: 80px;
+}
+.footer__button:hover {
+    border: 2px #000 solid;
+    background-color: #fff;
+    color: #000;
+    transition: .1s linear;
+}
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+.footer__icon {
+    font-size: 50px;
+    background-color: #fff;
+    color: #000;
+}
+.footer__icon-linkedin {
+    font-size: 25px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #000;
+    color: #fff;
+}
+.footer__icon-linkedin:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .1s linear;
+}
+.footer__icon-instagram {
+    font-size: 50px;
+    color: #000;
+}
+.footer__parag {
+    max-width: 260px;
+    margin-top: 40px;
+    margin: 40px auto 0;
+    font-weight: 400;
+}
