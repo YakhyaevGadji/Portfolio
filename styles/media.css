@@ -16,37 +16,41 @@
     .header__list {
         display: none;
     }
-    .header__list-item_active a{
-        color: #828282;
-    }
     .header__list-item a{
-        color: #000000;
+        color: #828282;
     }
     .header__nav_open .header__list {
         display: flex;
         position: fixed;
         top: 0;
-        right: 0;
-        bottom: 0;
         left: 0;
+        width: 100%;
+        height: 100%;
         background-color: #fff;
         flex-direction: column;
         row-gap: 45px;
         font-size: 34px;
         font-weight: 600;
         padding: 46px 30px;
+        transition: all 0.3s ease 0s;
     }
     .header__button-nav {
         display: flex;
+    }
+    .header__list-item_active a{
+        color: #000000;
+    }
+    .header__button-nav_active::before {
         transform: rotate(45deg);
+        top: 9px;
     }
-    .header__button-nav.active {
-        background-color: #fff;
+    .header__button-nav_active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
     }
-    .header__button-nav_active .header__list-item::before {
-        transform: rotate(45deg);
+    .header__button-nav_active span {
+        transform: scale(0);
     }
-
     
     .services {
         padding: 60px 0;

@@ -48,7 +48,6 @@ body {
     position: relative;
     width: 30px;
     height: 21px;
-    display: none;
 }
 .header__button-nav::before,
 .header__button-nav::after {
@@ -58,13 +57,16 @@ body {
     display: block;
     height: 3px;
     width: 100%;
+    transition: all 0.3s ease 0s;
 }
 .header__button-nav::before {
     top: 0;
-    
 }
 .header__button-nav::after {
     bottom: 0;
+}
+.header__button-nav_active {
+    background-color: #fff;
 }
 .header__button-nav span {
     position: absolute;
