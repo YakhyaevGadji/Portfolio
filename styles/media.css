@@ -1,0 +1,57 @@
+@media (max-width: 1040px) {
+    .intro {
+        display: inline;
+        
+    }
+    .intro__info {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .intro__image {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 900px) {
+    .header__list {
+        display: none;
+    }
+    .header__button-nav  {
+        display: block;
+    }
+
+
+    .services {
+        padding: 60px 0;
+    }
+    .services__list {
+        display: inline;
+    }
+    .services__list-item {
+        margin-bottom: 30px;
+    }
+    .services__list-item:last-child {
+        margin: 0;
+    }
+    .services__icon {
+        margin-bottom: 20px;
+    }
+
+
+    .intro__title {
+        font-size: 34px;
+    }
+
+
+    .projects__title {
+        margin-bottom: 50px;
+    }
+    .projects__list-item {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .footer__list {
+        column-gap: 40px;
+    }
+}
