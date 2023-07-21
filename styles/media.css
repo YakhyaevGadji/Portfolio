@@ -16,11 +16,38 @@
     .header__list {
         display: none;
     }
-    .header__button-nav  {
-        display: block;
+    .header__list-item_active a{
+        color: #828282;
+    }
+    .header__list-item a{
+        color: #000000;
+    }
+    .header__nav_open .header__list {
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        flex-direction: column;
+        row-gap: 45px;
+        font-size: 34px;
+        font-weight: 600;
+        padding: 46px 30px;
+    }
+    .header__button-nav {
+        display: flex;
+        transform: rotate(45deg);
+    }
+    .header__button-nav.active {
+        background-color: #fff;
+    }
+    .header__button-nav_active .header__list-item::before {
+        transform: rotate(45deg);
     }
 
-
+    
     .services {
         padding: 60px 0;
     }
