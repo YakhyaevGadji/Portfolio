@@ -1,0 +1,21 @@
+
+.intro__info.anim {
+    transform: translateX(-20%);
+    transition: all .8s;
+    opacity: 0;
+}
+.intro__info.anim.elem-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.8s;
+}
+.intro__image.anim {
+    transform: translateX(20%);
+    transition: all .8s;
+    opacity: 0;
+}
+.intro__image.anim.elem-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.8s;
+}
