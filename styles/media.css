@@ -26,6 +26,7 @@
         transition: all 0.3s ease;
         padding: 40px;
         overflow: auto;
+        z-index: 1;
     }
     .header__nav_active {
         left: 0;
@@ -51,6 +52,7 @@
         height: 25px;
         width: 30px;
         transition: all 0.3s ease;
+        z-index: 2;
     }
     .header__button-nav_active {
         background-color: #fff;

@@ -19,3 +19,68 @@
     opacity: 1;
     transition: all 0.8s;
 }
+
+
+/* Services */
+
+
+.services__list-item.anim {
+    transform: translateX(-20%);
+    opacity: 0;
+    transition: all .8s;
+}
+.services__list-item.anim.elem-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all .8s;
+}
+
+
+/* Projects */
+
+
+.projects__list-item.anim {
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all .5s;
+}
+.projects__list-item.anim.elem-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all .5s;
+}
+
+
+/* Footer */
+
+
+.footer__info.anim {
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all .5s;
+}
+.footer__info.anim.elem-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all .5s; 
+}
+.footer__list-item.anim {
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all .5s;
+}
+.footer__list-item.anim.elem-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all .5s; 
+}
+.footer__parag.anim {
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all .5s;
+}
+.footer__parag.anim.elem-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all .5s; 
+}
